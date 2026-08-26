@@ -1,3 +1,6 @@
 .vscode/
 __pycache__/
 .venv/
+#generated files
+employees.csv
+employees1.csv
