@@ -1,7 +1,7 @@
 import requests
 new_user = {
     "firstName": "John",
-    "lastName": "Doe",
+    "lastame": "Doe",
     "age":30,
     "company":{
         "title":"Backend Developer",
