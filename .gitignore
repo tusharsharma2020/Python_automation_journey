@@ -5,3 +5,4 @@ __pycache__/
 employees.csv
 employees1.csv
 employee.json
+.env
