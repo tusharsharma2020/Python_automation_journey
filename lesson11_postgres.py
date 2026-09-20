@@ -1,12 +1,8 @@
+from db import get_connection
+
 import psycopg
 
-conn = psycopg.connect(
-    host="localhost",
-    dbname="python_automation",
-    user="postgres",
-    password="tushar123"
-)
-
+conn = get_connection()
 print("Connected successfully!")
 
 curr= conn.cursor()

@@ -1,11 +1,6 @@
-import psycopg
+from db import get_connection
 
-connection = psycopg.connect(
-    host="localhost",
-    dbname="python_automation",
-    user="postgres",
-    password="tushar123"
-)
+connection = get_connection()
 
 cursor = connection.cursor()
 
